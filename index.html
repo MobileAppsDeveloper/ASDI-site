@@ -47,8 +47,9 @@
 	<div data-role="navbar">
 		<ul>
 			<li><a href="index.html" data-ajax="false">Home</a></li>
-			<li><a href="account.html">My Account</a></li>
+			<li><a href="account.html">Account</a></li>
 			<li><a href="categories.html">Browse</a></li>
+			<li><a href="shopping-cart.html">Cart</a></li>
 		</ul>
 	</div><!-- /navbar -->
 
@@ -58,37 +59,40 @@
 
 	<br class="clearBoth" />
 
-	<div class="slidewrap" data-autorotate="5000">
+	<div class="slidewrap2" data-autorotate="3500">
 		<ul class="slider" id="sliderName">
+			<li class="slide"><img class="sliderImage" src="images/banner_10.jpg" /></li>
 			<li class="slide"><img class="sliderImage" src="images/banner_06.jpg" /></li>
 			<li class="slide"><img class="sliderImage" src="images/banner_12.jpg" /></li>
 			<li class="slide"><img class="sliderImage" src="images/banner_08.jpg" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_10.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_11.jpg" /></li>
 			<li class="slide"><img class="sliderImage" src="images/banner_07.jpg" /></li>
 		</ul>
-		<ul class="slidecontrols">
+		<!--<ul class="slidecontrols">
 			<li><a href="#sliderName" class="next">Next</a></li>
 			<li><a href="#sliderName" class="prev">Prev</a></li>
-		</ul>
+		</ul>-->
 	</div>
 
 	<!--<div class="slidewrap2">
 		<ul class="slider">
-			<li class="slide"><img class="sliderImage" src="images/banner_01.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_02.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_03.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_04.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_05.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_10.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_06.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_12.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_08.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_11.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_07.jpg" /></li>
 		</ul>
 	</div>-->
 
 	<!--<div class="slidewrap3">
 		<ul class="slider">
-			<li class="slide"><img class="sliderImage" src="images/banner_01.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_02.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_03.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_04.png" /></li>
-			<li class="slide"><img class="sliderImage" src="images/banner_05.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_10.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_06.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_12.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_08.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_11.jpg" /></li>
+			<li class="slide"><img class="sliderImage" src="images/banner_07.jpg" /></li>
 		</ul>
 	</div>-->
 
@@ -183,12 +187,12 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="index.html" data-ajax="false">
+			<li><a href="shopping-cart.html" data-ajax="false">
 				<!--<img class="thumbnail" src="images/32/shopping_cart.png" />-->
 				<span class="indexOptions">Shopping Cart</span>
 				<!--<p></p>-->
 			</a></li>
-			<li><a href="index.html" data-ajax="false">
+			<li><a href="account.html" data-ajax="false">
 				<!--<img class="thumbnail" src="images/32/my_account.png" />-->
 				<span class="indexOptions">Your Account</span>
 				<!--<p></p>-->
@@ -223,7 +227,38 @@
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 	<script src="js/plugin.js"></script>
 	<script>
-	$(document).ready(function(){$('.slidewrap').carousel({slider:'.slider',slide:'.slide',slideHed:'.slidehed',nextSlide:'.next',prevSlide:'.prev',addPagination:true,addNav:false});$('.slidewrap3').carousel({namespace:"mr-rotato"}).bind({'mr-rotato-beforemove':function(){$('.events').append("<li>?beforemove? event fired.</li>");},'mr-rotato-aftermove':function(){$('.events').append("<li>?aftermove? event fired.</li>");}})});
+		$(document).ready(function() {
+			$('.slidewrap').carousel({
+				slider: '.slider',
+				slide: '.slide',
+				slideHed: '.slidehed',
+				nextSlide : '.next',
+				prevSlide : '.prev',
+				addPagination: true,
+				addNav : false
+			});
+
+			$('.slidewrap2').carousel({
+				slider: '.slider',
+				slide: '.slide',
+				addNav: false,
+				addPagination: true,
+				speed: 300 // ms.
+			});
+
+			$('.slidewrap3').carousel({
+					namespace: "mr-rotato" // Defaults to ?carousel?.
+				})
+				.bind({
+					'mr-rotato-beforemove' : function() {
+						$('.events').append("<li>?beforemove? event fired.</li>");
+					},
+					'mr-rotato-aftermove' : function() {
+						$('.events').append("<li>?aftermove? event fired.</li>");
+					}
+				})
+				.after('<ul class="events">Events</ul>');
+		});
 	</script>
 
 	<script src="http://code.jquery.com/mobile/1.1.1-rc.1/jquery.mobile-1.1.1-rc.1.min.js"></script>
