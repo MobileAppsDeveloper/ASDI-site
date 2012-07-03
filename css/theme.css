@@ -1,0 +1,46 @@
+ul{margin:0;padding:0;list-style:none}.events{font:normal 11px/1.4 arial,helvetica,sans-serif}img.sliderImage{width:100%;height:auto}.carousel-tabs{display:none}.prev,.next{float:left;font-weight:bold;font-size:14px;padding:5px 0;width:80px}.next{float:right;text-align:right}.slidewrap{margin:0}.prev,.next{display:none}#bottomContent{width: 100%}span.raquo{font-size: 120%;padding: 0 .3em .5em}.breadcrumb, .prevItem, .pagination, .nextItem {font-size: 90%;text-decoration: none}#breadcrumb{font-style: italic}
+
+.categoryLarge {
+font: bold 18px Georgia,'Times',serif;
+color: #369;
+text-transform: uppercase;
+display: block;
+}
+
+.categorySmall, .active, .categoryItemName, span.categoryPrice {
+font: italic 14px Georgia,'Times',serif;
+color: #585A5D;
+text-transform: none;
+}
+
+.paginationContainer {text-align: right;margin-bottom: 1em}
+.prevItem {}
+.active {font-size:18px}
+.pagination {}
+.nextItem {}
+
+
+.productDescription {margin:0 1em}
+
+.productImage img, .categoryImage img {width:100%;height:auto}
+
+.categoryItem, .categoryItemName {padding: .5em .5em}
+
+.categoryItemName {font-weight:bold;font-size: 16px}
+
+div.shortDescription, span.categoryPrice {
+	margin: .5em .5em
+}
+
+.categoryRating {color:#F7C942;margin: 2em 0 0 .5em}
+.moreInfo a{text-decoration: none;margin-left: .5em}
+
+.clearBoth{clear: both}
+
+.spacer{height: 1em}
+
+a.biggerTextLink{
+	float: right;
+	text-decoration: none;
+	font-size: 14px
+}
