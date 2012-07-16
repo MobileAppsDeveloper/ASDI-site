@@ -34,7 +34,6 @@
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/overrides.css">
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
-
 </head>
 
 <body>
@@ -60,16 +59,14 @@
 
 	<br class="clearBoth" />
 
-	<button class="xml" data-role="button" data-theme="a" data-icon="arrow-d" data-iconpos="right">Load XML</button>
-
-	<div id="products" class="ui-grid-a"></div>
+	Content Goes Here
 
 	</div><!-- /content -->
 
 		<div data-role="footer" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
-					<li ><a href="privacy.html">Privacy</a></li>
+					<li><a href="privacy.html">Privacy</a></li>
 					<li><a href="contactus.html">Contact Us</a></li>
 					<li><a href="credits.html">Credits</a></li>
 				</ul>
@@ -80,40 +77,18 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-	<script type="text/javascript">
-		$('.xml').click(function(){
-				$('#products').empty();
-				$.ajax({
-					type: "GET",
-					url: "js/load-catalog.xml",
-					dataType: "xml",
-					success: parseXml
-				});
-				function parseXml(xml) {
-					$(xml).find("product").each(function() {
-					//find each instance of loc in xml file and wrap it in a link
-					$("#products").append(	'<div class="ui-block-a"><div class="productContainer"><img src="images/' + $(this).find("image").text() + '" /></div></div>'+
-							'<div class="ui-block-b productInfo"><span class="productListingName">' + $(this).find("name").text() + '</span>'+
-							$(this).find("description").text() +
-							'<p><span class="productListingPrice">$' + $(this).find("price").text() + '</span>&nbsp;&nbsp;'+
-									'<a class="buyNowLink cupid-green" href="product' + $(this).find("model").text() + '.html" id="' + $(this).find("model").text() + '">Add To Cart</a></p>'+
-									'</div><br class="clearBoth" />'+
-									'<hr class="productListingHR" />'
-							);
-					});
-				}
-		});
-
-	</script>
-
 	<script src="http://code.jquery.com/mobile/1.1.1-rc.1/jquery.mobile-1.1.1-rc.1.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery.mobile-1.1.1-rc.1.min.js"><\/script>')</script>
-
+	<script src="js/json.js"></script>
 	<script src="js/main.js"></script>
+
+
+
 
 <!-- Start of third page: #popup -->
 <div data-role="dialog" id="popup">
+
+
 
 	<div data-role="content" data-theme="">
 		<h2>Under Contruction</h2>

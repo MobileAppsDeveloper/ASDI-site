@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+<!--
+    <product>
+			<image>image_01_small.jpg</image>
+			<name>Lacoste Classic Pique Polo Shirt</name>
+			<description>The quintessential Lacoste® polo shirt, a true timeless classic. Embroidered crocodile logo on the left chest. Intentionally loose fit to allow for comfort while moving. Two mother-of-pearl buttons. Hand-set piqué collar. Vented hem. 100% cotton piqué. Machine wash warm, hang dry.</description>
+			<price>89</price>
+			<rating>4</rating>
+			<reviews>2</reviews>
+			<brand>Lacoste</brand>
+			<brand-logo>lacoste.jpg</brand-logo>
+			<sku>7689993</sku>
+			<category>Clothing</category>
+			<sub-category>Shirst &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image-11_small.jpg</image>
+			<name>Nanette Lepore Riviera Stripe Tunic Cover</name>
+			<description>Speak the international language of lovely luxury! You are a sight for sore eyes in the soothing simplicity of the Nanette Lepore Riviera Stripe Tunic Cover!</description>
+			<price>77.99</price>
+			<rating>5</rating>
+			<reviews>2</reviews>
+			<brand>Nanette Lepore</brand>
+			<brand-logo>nanette-lapore.jpg</brand-logo>
+			<sku>7930510</sku>
+			<category>Clothing</category>
+			<sub-category>Swimwear</sub-category>
+    </product>
+    <product>
+			<image>image_03_small.jpg</image>
+			<name>Enjoi Funnel L/S Woven Shirt</name>
+			<description>Maybe you need to funnel some of your petty cash into a wardrobe upgrade. Start the reconstruction off right by grabbing this rad Enjoi shirt. </description>
+			<price>52</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Enjoi</brand>
+			<brand-logo>enjoi.jpg</brand-logo>
+			<sku>7988576</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_04_small.jpg</image>
+			<name>Vans Montrose L/S Woven</name>
+			<description>Put your wardrobe on a whole other level with the addition of the Montrose L/S Woven from Vans®.</description>
+			<price>55</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Vans</brand>
+			<brand-logo>vans.jpg</brand-logo>
+			<sku>7991360</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_05_small.jpg</image>
+			<name>Nike Hustle Sleeveless</name>
+			<description>Crash the boards and take it to the hole in this sleeveless basketball tee from Nike.</description>
+			<price>28</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Nike</brand>
+			<brand-logo>nike.jpg</brand-logo>
+			<sku>7757409</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+-->
+    <product>
+			<image>image_06_small.jpg</image>
+			<name>Joie Rancher Silk Top</name>
+			<description>There are no cowboys, ranches or ropes in this picture. Just the simplistic style of sophisticated design in this Joie Rancher Silk Top!</description>
+			<price>158</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Joie</brand>
+			<brand-logo>joie.jpg</brand-logo>
+			<sku>8026099</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_07_small.jpg</image>
+			<name>Three Dots 1x1 Cotton Modal Cowl Neck</name>
+			<description>Soft cotton Modal fabric blend in a 1x1 rib offers luxurious, lasting wear.</description>
+			<price>54</price>
+			<rating>"5"</rating>
+			<reviews>"13"</reviews>
+			<brand>Three Dots</brand>
+			<brand-logo>threedots.jpg</brand-logo>
+			<sku>7563420</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_08_small.jpg</image>
+			<name>Lacoste S/S 2 Button Stretch Pique Polo</name>
+			<description>Take your look to dazzling new heights by sporting this fabulous polo from Lacoste®.</description>
+			<price>89</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Lacoste</brand>
+			<brand-logo>lacoste.jpg</brand-logo>
+			<sku>7954318</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_09_small.jpg</image>
+			<name>Adidas adizero Tank</name>
+			<description>Form and function gracefully collide in the adizero Tank.</description>
+			<price>50</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Adidas</brand>
+			<brand-logo>adidas.jpg</brand-logo>
+			<sku>7977518</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_10_small.jpg</image>
+			<name>Icebreaker Sprite Racerback Tank W</name>
+			<description>Life flits to and fro on ever-changing whims, and when movement is vital, you do not want anything holding you back. For the spirited woman, the luxuriously soft Merino wool Sprite Racerback Tank is ready to get up and go at a moments notice!</description>
+			<price>55</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Icebreaker</brand>
+			<brand-logo>icebreaker.jpg</brand-logo>
+			<sku>7986450</sku>
+			<category>Clothing</category>
+			<sub-category>Shirts &amp; Tops</sub-category>
+    </product>
+    <product>
+			<image>image_11_small.jpg</image>
+			<name>New Balance Classics WL442</name>
+			<description>The retro styling of the womens WL442 from New Balance® Classics puts a vibrant, fashionable spin on everyday, run-of-the-mill, casual sneakers!</description>
+			<price>49.95</price>
+			<rating>"5"</rating>
+			<reviews>"34"</reviews>
+			<brand>New Balance</brand>
+			<brand-logo>newbalance.jpg</brand-logo>
+			<sku>7648875</sku>
+			<category>Shoes</category>
+			<sub-category>Sneakers &amp; Athletic Shoes</sub-category>
+    </product>
+    <product>
+			<image>image_12_small.jpg</image>
+			<name>Columbia Northbend Omni-Tech</name>
+			<description>The Northbend Omni-Tech® by Columbia® has a waterproof construction that prevents soggy feet so a sudden shower or creek crossing will never slow you down. </description>
+			<price>85</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Columbia</brand>
+			<brand-logo>columbia.jpg</brand-logo>
+			<sku>7888033</sku>
+			<category>Shoes</category>
+			<sub-category>Sneakers &amp; Athletic Shoes</sub-category>
+    </product>
+    <product>
+			<image>image_13_small.jpg</image>
+			<name>Hoka One One Mafate</name>
+			<description>Enjoy those tough hill runs without the fatigue, when you ride in the dynamic, responsive cushioning of the Mafate trail runner from Hoka One One. </description>
+			<price>150</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Hoka One One</brand>
+			<brand-logo>hokaoneone.jpg</brand-logo>
+			<sku>7937518</sku>
+			<category>Shoes</category>
+			<sub-category>Sneakers &amp; Athletic Shoes</sub-category>
+    </product>
+    <product>
+			<image>image_14_small.jpg</image>
+			<name>PUMA Mar Mostro</name>
+			<description>Whether you are headed to open water with your crew or people-watching at the boardwalk, never again will you look like a 'fish out of water' in these fresh Mar Mostro sailing-inspired shoes from PUMA!</description>
+			<price>75</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Puma</brand>
+			<brand-logo>puma.jpg</brand-logo>
+			<sku>7946852</sku>
+			<category>Shoes</category>
+			<sub-category>Sneakers &amp; Athletic Shoes</sub-category>
+    </product>
+    <product>
+			<image>image_15_small.jpg</image>
+			<name>Vans Authentic</name>
+			<description>Stay true with the clean, classic, and uncomplicated Authentic from Vans.</description>
+			<price>55</price>
+			<rating>"5"</rating>
+			<reviews>"384"</reviews>
+			<brand>Vans</brand>
+			<brand-logo>vans.jpg</brand-logo>
+			<sku>7255074</sku>
+			<category>Shoes</category>
+			<sub-category>Sneakers &amp; Athletic Shoes</sub-category>
+    </product>
+    <product>
+			<image>image_16_small.jpg</image>
+			<name>Gregory Whitney 95</name>
+			<description>With endless options in organization, access, and the amazing load support of the Response CFS Suspension, the Gregory® Whitney will keep your gear within easy reach and your back in perfect comfort. This fully featured pack offers ultra durability and load support for the most challenging backcountry locales in the world.</description>
+			<price>389</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Gregory</brand>
+			<brand-logo>gregory.jpg</brand-logo>
+			<sku>7714209</sku>
+			<category>Bags &amp; Handbags</category>
+			<sub-category>Backpacks</sub-category>
+    </product>
+    <product>
+			<image>image_17_small.jpg</image>
+			<name>CamelBak Cloud Walker 70 oz</name>
+			<description>The Cloud Walker 70 ounce by Camelbak® is the easy to use grab and go bag for those last minute jaunts into the wild.</description>
+			<price>80</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Camelbak</brand>
+			<brand-logo>camelback.jpg</brand-logo>
+			<sku>7952074</sku>
+			<category>Bags &amp; Handbags</category>
+			<sub-category>Backpacks</sub-category>
+    </product>
+    <product>
+			<image>image_18_small.jpg</image>
+			<name>Vans Deana Backpack</name>
+			<description>You never know what the day is going to bring you, so you might as let the super comfortable and roomy Vans® Deana Backpack keep you at the ready for anything thrown your way.</description>
+			<price>38</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Vans</brand>
+			<brand-logo>vans.jpg</brand-logo>
+			<sku>7967407</sku>
+			<category>Bags &amp; Handbags</category>
+			<sub-category>Backpacks</sub-category>
+    </product>
+    <product>
+			<image>image_19_small.jpg</image>
+			<name>JanSport Driver 8</name>
+			<description>Dude, you are already slouching! Do not make it worse by lugging around all those books. The Driver 8 by JanSport® is really the best answer to getting to class on time with that crazy load you have to carry around. Who cares if your campus looks like an airport? Great minds think alike. </description>
+			<price>109</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Jansport</brand>
+			<brand-logo>jansport.jpg</brand-logo>
+			<sku>7968890</sku>
+			<category>Bags &amp; Handbags</category>
+			<sub-category>Backpacks</sub-category>
+    </product>
+    <product>
+			<image>image_20_small.jpg</image>
+			<name>Nixon Small Shadow Backpack</name>
+			<description>Stuff the Nixon Small Shadow backpack full and you will feel confident that you can take on the world! </description>
+			<price>120</price>
+			<rating>""</rating>
+			<reviews>""</reviews>
+			<brand>Nixon</brand>
+			<brand-logo>nixon.jpg</brand-logo>
+			<sku>7970390</sku>
+			<category>Bags &amp; Handbags</category>
+			<sub-category>Backpacks</sub-category>
+    </product>
+</catalog>
