@@ -60,7 +60,7 @@
 
 	<br class="clearBoth" />
 
-	<button class="xml" data-role="button" data-theme="a" data-icon="arrow-d" data-iconpos="right">Load XML</button>
+	<button class="json"data-role="button" data-theme="a" data-icon="arrow-d" data-iconpos="right">Load CSV</button>
 
 	<div id="products" class="ui-grid-a"></div>
 
@@ -82,29 +82,32 @@
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
 	<script type="text/javascript">
-		$('.xml').click(function(){
-				$('#products').empty();
-				$.ajax({
-					type: "GET",
-					url: "js/load-catalog.xml",
-					dataType: "xml",
-					success: parseXml
-				});
-				function parseXml(xml) {
-					$(xml).find("product").each(function() {
-					//find each instance of loc in xml file and wrap it in a link
-					$("#products").append(	'<div class="ui-block-a"><div class="productContainer"><img src="images/' + $(this).find("image").text() + '" /></div></div>'+
-							'<div class="ui-block-b productInfo"><span class="productListingName">' + $(this).find("name").text() + '</span>'+
-							$(this).find("description").text() +
-							'<p><span class="productListingPrice">$' + $(this).find("price").text() + '</span>&nbsp;&nbsp;'+
-									'<a class="buyNowLink cupid-green" href="product' + $(this).find("model").text() + '.html" id="' + $(this).find("model").text() + '">Add To Cart</a></p>'+
-									'</div><br class="clearBoth" />'+
-									'<hr class="productListingHR" />'
-							);
-					});
-				}
-		});
+	$('button').click(function(){
+		$.ajax({
+			type: 'GET',
+			url: 'js/load-csv.php',
+			data: null,
+			success: function(text) {
+				var fields = text.split(/\n/);
+				fields.pop(fields.length-1);
+				var headers = fields[0].split(','), html = '';
 
+
+				var data = fields.slice(1, fields.length);
+				for(var j = 0; j < data.length; j += 1) {
+					var dataFields = data[j].split(',');
+					html += '<div class="ui-block-a"><div class="productContainer"><img src="images/' + dataFields[0] + '" /></div></div>';
+					html += '<div class="ui-block-b productInfo"><span class="productListingName">' + dataFields[1] + '</span>' + dataFields[2] + '';
+					html += '<p><span class="productListingPrice">$' + dataFields[3] + '</span>&nbsp;&nbsp;';
+					html += '<a class="buyNowLink cupid-green" href="product'+ dataFields[4] +'.html" id="'+ dataFields[4] +'">Add To Cart</a></p>';
+					html += '</div><br class="clearBoth" />';
+					html += '<hr class="productListingHR" />';
+				}
+				$(html).appendTo('#products');
+			}
+		});
+	});
+	// http://onwebdev.blogspot.com/2011/02/jquery-parsing-csv-file.html
 	</script>
 
 	<script src="http://code.jquery.com/mobile/1.1.1-rc.1/jquery.mobile-1.1.1-rc.1.min.js"></script>
