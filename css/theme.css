@@ -128,7 +128,7 @@ span.raquo {
 	margin:0 1em
 }
 
-.productImage img,.categoryImage img {
+.productImage img, .categoryImage img, .productContainer img {
 	width:100%;
 	height:auto
 }
@@ -175,9 +175,58 @@ a.biggerTextLink {
 	height:auto
 }
 
-.inputQuantity {
-	height:1.5em;
-	-moz-border-radius:.2em;
-	-webkit-border-radius:.2em;
-	border-radius:.2em
+input[type=text]  {
+	  	height: 2em;
+	-moz-border-radius:.4em;
+	-webkit-border-radius:.4em;
+	border-radius:.4em
 }
+
+.error {
+display:block; margin:10px 0; color:#CC0000
+}
+
+.required {
+margin:10px 0; color:#CC0000
+}
+
+.biggerText {
+font-size: 120%
+}
+
+#signUpErrorsLink {display:none}
+
+a.buyNowLink {text-decoration: none;font-size: 100%;font-weight: bold}
+
+.productListingPrice {color:#FF4500;font-size: 100%;font-weight: bold}
+
+.productListingName {
+	font:bold 14px Georgia,Times,serif;
+	color:#369;
+	text-transform:uppercase;
+	display:block
+}
+
+a.cupid-green {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #7FBF4D;
+    background-image: -moz-linear-gradient(center top , #7FBF4D, #63A62F);
+    border-color: #63A62F #63A62F #5B992B;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 #96CA6D inset;
+    color: #FFFFFF;
+    font: bold 11px/1 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    padding: 3px 1px 4px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #4C9021;
+    text-transform: uppercase
+}
+#products .ui-block-a, #products .ui-block-b {padding: 0 5px;margin-bottom: 1em;}
+
+.productListingHR{display: none}
